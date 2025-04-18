@@ -1,0 +1,301 @@
+<!--Proyecto realizado con Bootstrap-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Proyecto web</title>
+
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css"><!-- para botones, columnas, menús, formularios, etc. Así no tenés que escribir todo desde cero.-->
+
+    <!--scrollreveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+</head>
+<body>
+    <!--Navegation-->
+    <article id="fondo">
+    </article>
+  
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        
+          <h1 class="navbar-brand" href="#">Conoce nuestra libreria online</h1>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#header">Suspenso</a> <!--si ingreso a home me lleva al header que seria la primer imagen -->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#info-one">Terror</a> <!--para que cuando haga click en about me lleve a la para de info-one-->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#libro3">Ciencia Ficcion</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Libro4">Comedia</a>
+              </li>
+            </ul>
+        </div>
+      
+    </nav>
+  
+
+    <!--HEADER-->
+    <header id="header" >
+      <div class="overlay"></div><!--esta es para la capa oscura-->
+        <div class="container mt-5">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="img/img1.jpg" style="width: 45%;">
+              <p> 400 paginas</p>
+            </div>
+            <div class="col-md-6">
+              <h1 class="display-4">El día que se perdió la cordura</h1>
+              <ul class="mt-4">
+                <li>Género: Novela</li><hr>
+                <li>Subgénero: Ficción literaria, Suspense psicológico</li><hr>
+                <li>Año de publicación: 2017</li><hr>
+              </ul>
+              <ul>
+                <li>
+                  <a  target="_blank" href="https://es.scribd.com/document/454548350/el-dia-que-se-perdio-la-cordura" class="btn btn-outline-secondary btn-lg mt-2">Descargar PDF</a>
+                </li>
+                <li>
+                  <a  target="_blank" href="https://www.planetadelibros.com.ar/libros/suspense-y-misterio/00015/00141" class="btn btn-outline-secondary btn-lg mt-2">Más libros de Suspenso</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+
+    <!--Testimonial-->
+    <section id="Testimonial" >
+        <div class="container">
+            <h3 class="tit-desc-1">Descripción breve</h3>
+            <p class=" h4 mb-2">En Boston, un hombre aparece desnudo y cubierto de sangre con la cabeza decapitada de una mujer en la mano. A partir de ese momento, el doctor Jenkins, director de un prestigioso centro psiquiátrico, y Stella Hyden, agente del FBI, se ven envueltos en una investigación llena de secretos, símbolos misteriosos y conexiones con un pasado oscuro. La historia se mueve entre diferentes tiempos y voces, desentrañando una red de locura, amor y conspiraciones que pondrán en jaque la cordura de todos los involucrados.</p>
+            <a href="#header" class="btn btn-outline-secondary btn-lg">Volver al inicio</a>
+  </div>
+            <!--aca termina la info del primer libro-->
+            
+        
+        </div>
+
+    </section>
+
+    <!--Info ONE--> <!--para dar informacion-->
+    <section id="info-one">
+        <div class="container">
+          <div class="row mt-5">
+            <div class="col-md-6">
+              <img src="img/img2.jpg" style="width: 45%;">
+              <p>416 paginas</p>
+            </div>
+            <div class="col-md-6 my-auto">
+              <h1>El Exorcista</h1>
+              <ul class="mt-4">
+                <li>Autor: William Peter Blatty</li><hr>
+                <li>Género: Terror</li><hr>
+                <li>Subgénero: Novela negra, Intriga, Terror</li><hr>
+                <li>Año de publicación: 2018</li><hr>
+              </ul>
+              <ul>
+                <li>
+                  <a target="_blank" href="https://riverraid17.wordpress.com/wp-content/uploads/2010/01/el-exorcista-de-william-blatty.pdf" class="btn btn-outline-secondary btn-lg mt-2">Descargar PDF</a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://www.esquire.com/es/actualidad/libros/a28818961/libros-novelas-miedo-terror/" class="btn btn-outline-secondary btn-lg mt-2">Más libros de Terror</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <!-- Bibliografía del autor 2 -->
+      <section id="Testimonial2" class="py-5">
+        <div class="container">
+          <h3 class="tit-desc-1">Descripción breve</h3>
+          <p class="h4 mb-2">
+            Cuando la joven Regan MacNeil comienza a mostrar un comportamiento extraño y aterrador, su madre, desesperada, recurre a médicos, psiquiatras y finalmente a un sacerdote. El padre Damien Karras, con dudas sobre su fe, se enfrenta junto al veterano padre Merrin a una terrible fuerza demoníaca. Juntos lucharán por salvar a la niña en una batalla entre el bien y el mal que pondrá a prueba sus creencias y su resistencia. 
+          </p>
+          
+          <a href="#header" class="btn btn-outline-secondary btn-lg">Volver al inicio</a>
+        </div>
+      </section>
+
+<!--libro3-->
+<section id="libro3">
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <img src="img/img3.jpg" style="width: 45%;">
+                <p>416 paginas</p>
+
+            </div>
+            <div class="col-md-6 my-auto">
+                <h1>La Trilogia de la fundación</h1>
+                <ul>
+                    <li>Autor: Isaac Asimov </li>
+                    <hr></hr>
+                    <li>Genero: Ciencia Ficcion</li>
+                    <hr></hr>
+                    <li>Subgenero: Fantasia, Suspenso</li>
+                    <hr></hr>
+                    <li>Año de publicacion: 1992 </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a target="_blank" href="https://ww3.lectulandia.com/book/trilogia-de-la-fundacion/" class="btn btn-outline-secondary btn-lg mt-2">Descargar PDF</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.xataka.com/listas/21-mejores-libros-ciencia-ficcion" class="btn btn-outline-secondary btn-lg mt-2">Mas libros de Ciencia Ficcion</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Tercer libro-->
+<section id="Testimonial3" class="py-5">
+    <div class="conteiner">
+        <h3 class="tit-desc-1">Descripción breve</h3>
+        <p class="h4 mb-2">
+          En un futuro lejano, el Imperio Galáctico está en decadencia. Hari Seldon, un matemático visionario, desarrolla la psicohistoria, una ciencia capaz de predecir el comportamiento de grandes masas. Para preservar el conocimiento y reducir la barbarie que seguirá al colapso del imperio, crea la Fundación, una comunidad científica que enfrentará desafíos políticos, religiosos y militares para asegurar un nuevo renacer de la civilización.
+        </p>
+        <a href="#header" class="btn btn-outline-secondary btn-lg">Volver al inicio</a>
+    </div>
+</section>
+
+<!--Libro4-->
+<section id="Libro4">
+  <div class="container">
+      <div class="row mt-5">
+          <div class="col-md-6">
+            <img src="img/imagen5.jpg" style="width: 45%;">
+            <p>430 paginas</p>
+
+          </div>
+          <div class="col-md-6 my-auto">
+              <h1>Una comedia ligera</h1>
+              <ul>
+                  <li>Autor: Eduardo Mendoza </li>
+                  <hr></hr>
+                  <li>Genero: Comedia</li>
+                  <hr></hr>
+                  <li>Subgenero: Fantasia, Novela</li>
+                  <hr></hr>
+                  <li>Año de publicacion: 1982 </li>
+              </ul>
+              <ul>
+                <li>
+                    <a target="_blank" href="https://ww3.lectulandia.com/book/una-comedia-ligera/" class="btn btn-outline-secondary btn-lg mt-2">Descargar PDF</a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://infolibros.org/libros-recomendados/mejores-libros-comedia/" class="btn btn-outline-secondary btn-lg mt-2">Mas libros de Comedia</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</section>
+
+<!--Testimonial4-->
+<section id="Testimonial4" class="py-5">
+  <div class="conteiner">
+      <h3 class="tit-desc-1">Descripción breve</h3>
+      <p class="h4 mb-2">
+        En la Barcelona de los años 40, un famoso escritor de teatro ya en decadencia se ve envuelto en un misterio cuando una antigua amiga aparece asesinada. A través de sus recuerdos y reflexiones, el protagonista repasa su vida, sus amores y su papel en una sociedad marcada por la posguerra, la frivolidad y la hipocresía. Con ironía y nostalgia, la novela retrata el mundo del espectáculo y las contradicciones de una época.
+      </p>
+      <a href="#header" class="btn btn-outline-secondary btn-lg">Volver al inicio</a>
+  </div>
+</section>
+
+
+<!--info-two-->
+<section id="info-two" style="background: #f1f1f1 ;"> <!--el background es para darle color a la info doble-->
+    <div class="conteiner">
+        <div class="row my-5">
+            <div class="col-md-6">  <!--para la separcion hacia arriba y abajo-->
+                <h2 class="tit-desc-1">¿Por qué es importante la lectura?.</h2>
+                <p>La lectura tiene muchos beneficios y hay muchas razones por las que debemos desarrollar el hábito de lectura. Además de ayudarte a adquirir conocimientos, leer mantiene tu cerebro activo, te ayuda a reducir el estrés y amplía tu vocabulario.</p>
+            <!--</div>-->
+            <!--<div class="col-md-6">  para armar dos columnas de 6-->
+                <h2 class="tit-desc-1">Reflexión:</h2>
+                <p> “Un lector vive mil vidas antes de morir. Aquel que nunca lee vive solo una".  George R.R.Martin</p>
+            </div>
+            <div class="col-md-6 d-flex justify-content-end align-items-center"> <!-- para armar dos columnas de 6-->
+              <div class="recuadro">
+              <img src="img/img9.jpg" style="width: 200%;">
+              </div>
+        </div>
+    </div>
+
+
+</section>
+<h3 class="h3-txt">Dejá tu opinión sobre nuestra pagina</h3>
+<hr></hr>
+<footer id="Contact"> <!-- (formulario) va a ser referenciado a la seccion contact-->
+    <div class="container">
+        <div class="row ">
+            <div class="col-md-5">
+                <form class="card"> <!--para los margenes de arriba y de abajo del formulario-->
+                    <div class="card-body">
+                        <div class="form-group mb-3"> <!--mb-3 para el espacio entre cada bloque-->
+                            <input type="text" placeholder="Nombre" class="form-control"> <!--form-control para esterilizar los input-->  
+                        </div>
+                        <div class="form-group mb-3"><!--mb-3 para el espacio entre cada bloque-->
+                            <input type="email" placeholder="Email" class="form-control"> <!--form-control para esterilizar los input-->  
+                        </div>
+                        <div class="form-group mb-3"><!--mb-3 para el espacio entre cada bloque-->
+                            <textarea rows="10" cols="30" placeholder="Mensaje" class="form-control"></textarea>    <!--para que el usuario pueda tipear su mensaje-->
+
+                        </div>
+                        <!--crear un boton-->
+                        <button type="submit" class="ctn ctn-outline-secundary">
+                            Enviar
+                        </button>
+
+
+
+                    </div>
+
+                </form>
+                
+                    
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+        <!--bootstrap 4 scripts-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
+<footer>
+  <p class="titulo1">&copy; 2025 Mi proyecto Web. Todos los derechos reservados.</p>
+  <p class="titulo1">Contacto: contacto@miproyecto.com</p>
+</footer>
+<!--<a href="https://www.facebook.com/ingresar el face" target="_blank">Seguinos en Facebook</a>-->

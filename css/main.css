@@ -1,0 +1,99 @@
+body{
+    font-family: "Titillium Web", sans-serif;
+}
+header {
+    margin-top: 75px; /*para espaciar la imagen que esta en el header del titulo*/
+}
+
+#Testimonial {
+    background: beige; /*para cambiarle el color al texto de abajo de la imagen*/
+    padding: 50px 0 30px 0; 
+    text-align: center;  /*texto centrado*/
+    margin-top: 40px; /*para espaciar el texto de abajo con la imagen*/
+
+}
+footer {
+    background: url(../img/img6.jpg) ; /*para agregar imagen de fonfo en el footer*/
+/*para que la imagen no se repita se pone (no-repeat)*/
+right: 250px;
+
+}
+
+#titulo-derecha{
+    position:absoluta;
+    top: 10px;
+    right: 10px;
+}
+
+#Testimonial2{
+    background: beige; /*para cambiarle el color al texto de abajo de la imagen*/
+    padding: 50px 0 30px 0; 
+    text-align: center;  /*texto centrado*/
+    margin-top: 40px; /*para espaciar el texto de abajo con la imagen*/
+
+}
+
+#Testimonial3{
+    background: beige; /*para cambiarle el color al texto de abajo de la imagen*/
+    padding: 50px 0 30px 0; 
+    text-align: center;  /*texto centrado*/
+    margin-top: 40px; /*para espaciar el texto de abajo con la imagen*/
+
+}
+
+#Testimonial4{
+    background: beige; /*para cambiarle el color al texto de abajo de la imagen*/
+    padding: 50px 0 30px 0; 
+    text-align: center;  /*texto centrado*/
+    margin-top: 40px; /*para espaciar el texto de abajo con la imagen*/
+
+}
+
+.titulo1{
+    color: white;
+}
+
+.titulo2{
+    color: cornflowerblue;
+}
+.navbar-brand{
+    text-align: center;
+    display: block; /* Necesario si es un <a> */
+    /*width: 100%;    /* Para que ocupe todo el ancho del contenedor */
+    /*text-decoration: overline;*/
+    background-color: #f1f1f1;
+    margin:  15px 30px 25px;  
+    /* border: 5px red;*/
+}
+#fondo{
+    background-color: #f1f1f1;
+    border: 10px black double;
+    background-image: url("biblioteca.jpg");
+    opacity: 0.8;
+    height: 300px;
+}
+
+.h3-txt{
+    text-align: center;
+    text-shadow: 3px 5px 5px grey;
+    background-color: #f1f1f1;
+    padding: 30px;
+    /*border: solid 2px black;*/
+}
+.tit-desc-1{
+    text-shadow: 3px 5px 5px grey;
+    text-decoration: underline;
+}
+.recuadro {
+    overflow: scroll;
+    background-color: beige;
+    margin: 15px 30px 25px;
+    padding: 30px;
+    border: solid 2px black;
+    width: 200px;
+    height: 200px;
+    outline: 2px solid grey;
+}
+  
+  
+  
